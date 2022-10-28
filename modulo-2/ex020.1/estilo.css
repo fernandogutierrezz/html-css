@@ -1,0 +1,20 @@
+body{
+    font: normal 1em arial, helvetica, sans-serif; 
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: aquamarine;
+}
+a:visited{ /*quando visualizar muda o resutado*/
+    color: aqua;
+}
+a:hover{
+    text-decoration: underline; /*sublinhado*/ 
+}
+.especial:hover{
+    color: azure;
+    background-color: black;
+    text-decoration: none;
+}
+

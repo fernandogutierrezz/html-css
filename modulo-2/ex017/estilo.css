@@ -1,0 +1,7 @@
+*{/*configuração  global do css*/
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(to top, #F9648D, #DB58BE, #DE6DF2, #A458DB, #9164F9);/* para fazer o degrade*/
+    background-attachment: fixed; /*para fixar o degrade no fundo do site*/
+}

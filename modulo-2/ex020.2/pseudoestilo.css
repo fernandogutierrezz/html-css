@@ -1,0 +1,21 @@
+div{
+    display: inline-block; /*para agrupar tudo na mesma linha*/
+    background-color: lightgray; /*cor de fundo*/
+    text-align: center; /*posição do conteudo*/
+    border: 1px solid black; /*borda da div*/
+    height: 200px; /*altura*/
+    width: 200px; /*largura*/
+}
+div:hover{ /*pseudoclass : usada para alterar o estado quando passar o mause por cima*/
+    background-color: aqua;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#filho > p{ /*filho > usado para alterar conteudo em algum elemento especifico dentro de algo*/
+    display: none; /*esconder*/
+}
+#filho:hover > p{
+    display: block; /*mostrar o conteudo*/
+    color: rgb(255, 0, 0); /*cor da letra*/
+}

@@ -1,0 +1,17 @@
+h1{
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+    border: 10px solid darkslategray;
+
+    padding: 10px 10px 10px 10px; /*a order é de sentido horario, começando de cima*/
+           /*10px       ---> colocando 1 unico número, é a mesma coisa que colocar 4 números*/
+           /*10px 10px  ---> colocando 2 números, o primeiro irá representar top, bottom e o segundo irá representar <--left, right--> */ 
+    margin: 20px 20px 40px 20px;
+}
+a{
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    padding: 10px 10px 10px 10px;
+}
