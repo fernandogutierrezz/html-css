@@ -1,0 +1,40 @@
+.bloco{
+    height: 200px;
+    width: 850px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+/*posicionamento das imagens*/
+#q1{
+    background-image: url(/img/wallpaper003.jpg);
+    background-position: left top;
+}
+#q2{
+    background-image: url(/img/wallpaper003.jpg);
+    background-position:left center;
+}
+#q3{
+    background-image: url(/img/wallpaper003.jpg);
+    background-position: right bottom;
+}
+#q4{
+    background-image: url(/img/wallpaper003.jpg);
+    background-position: center center;
+}
+
+#a1{
+    background-image: url(/img/pattern004.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+#a2{
+    background-image: url(/img/pattern004.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#a3{
+    background-image: url(/img/pattern004.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
