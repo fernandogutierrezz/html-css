@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    height: 100vh;
+    background-image: url('/ex22/img/wallpaper002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: solid 1px darkblue;
+    border-radius: 15px;
+}
