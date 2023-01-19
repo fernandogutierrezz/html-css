@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    height: 100vh;/*para ocupar o tamanho da tela toda visível*/
+    background: black url('/img/wallpaper002.jpg') center center no-repeat fixed;
+    background-size: cover; /*para ocupar toda a tela visível*/
+}
+main{
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: solid 1px darkblue;
+    border-radius: 15px;
+    font-size: 21px;
+}
